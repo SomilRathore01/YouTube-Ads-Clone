@@ -52,11 +52,11 @@ function compare(a, b) {
 
 ad_times.addEventListener('input', function(e) {
     if (e.target.value == 0) {
-        document.querySelector(".submit_btn").innerText = "Skip";
+        document.querySelector(".submit_btn button").innerText = "Skip";
     } else if (e.target.value.length > 0) {
-        document.querySelector(".submit_btn").innerText = "Continue";
+        document.querySelector(".submit_btn button").innerText = "Continue";
     } else {
-        document.querySelector(".submit_btn").innerText = "Skip";
+        document.querySelector(".submit_btn button").innerText = "Skip";
     }
 });
 
